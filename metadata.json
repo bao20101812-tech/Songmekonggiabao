@@ -1,0 +1,6 @@
+{
+  "name": "Mekong River Explorer - Chuyên Đề Địa Lí 11 & MRC",
+  "description": "Nền tảng học tập và trò chơi tương tác về Sông Mê Kông, Ủy hội Sông Mê Kông (MRC), Địa lí 11 và liên hệ thực tiễn Việt Nam, tích hợp Chatbot Kiến Sáng AI.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

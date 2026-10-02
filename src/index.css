@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@keyframes waterDrift {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.02);
+  }
+}
+
+@keyframes riverGlow {
+  0%, 100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.75;
+  }
+}
+
+.animate-water-drift {
+  animation: waterDrift 12s ease-in-out infinite;
+}
+
+.animate-river-glow {
+  animation: riverGlow 8s ease-in-out infinite;
+}
